@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic Dark Theme Colors -->
+    <color name="pdf_canvas_background">#121316</color>
+    <color name="pdf_toolbar_background">#1C1D21</color>
+    <color name="pdf_toolbar_text">#F0F1F5</color>
+    <color name="pdf_toolbar_subtitle">#A0A4AF</color>
+    <color name="pdf_toolbar_icon">#E2E4EB</color>
+
+    <color name="pdf_page_background">#FFFFFF</color>
+    <color name="pdf_page_border">#2C2D35</color>
+
+    <color name="pageCounterBackgroundColor">#D92A2C32</color>
+    <color name="pageCounterBorderColor">#33FFFFFF</color>
+    <color name="pageCounterTextColor">#FFFFFF</color>
+
+    <color name="primary_color">#9ECAFF</color>
+    <color name="primary_container">#00497D</color>
+    <color name="on_primary_container">#D1E4FF</color>
+</resources>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">My PDF</string>
+    <string name="pdf_page_counter">%1$d / %2$d</string>
+    <string name="open">Open file…</string>
+    <string name="no_pdf_loaded">No PDF file loaded</string>
+    <string name="pick_pdf">Select a PDF</string>
+    <string name="night_reading_mode">Invert colors (Night reading)</string>
+    <string name="theme">App Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="error_loading_pdf">Failed to load PDF</string>
 </resources>

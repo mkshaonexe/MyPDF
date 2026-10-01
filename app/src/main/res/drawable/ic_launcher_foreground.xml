@@ -1,30 +1,50 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:aapt="http://schemas.android.com/aapt"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
-        <aapt:attr name="android:fillColor">
-            <gradient
-                android:endX="85.84757"
-                android:endY="92.4963"
-                android:startX="42.9492"
-                android:startY="49.59793"
-                android:type="linear">
-                <item
-                    android:color="#44000000"
-                    android:offset="0.0" />
-                <item
-                    android:color="#00000000"
-                    android:offset="1.0" />
-            </gradient>
-        </aapt:attr>
-    </path>
+
+    <!-- Document drop shadow -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M35,27 L65,27 L77,39 L77,83 C77,85.2 75.2,87 73,87 L35,87 C32.8,87 31,85.2 31,83 L31,31 C31,28.8 32.8,27 35,27 Z" />
+
+    <!-- White Paper Sheet -->
     <path
         android:fillColor="#FFFFFF"
-        android:fillType="nonZero"
-        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
-        android:strokeWidth="1"
-        android:strokeColor="#00000000" />
+        android:pathData="M34,25 L64,25 L76,37 L76,81 C76,83.2 74.2,85 72,85 L34,85 C31.8,85 30,83.2 30,81 L30,29 C30,26.8 31.8,25 34,25 Z" />
+
+    <!-- Folded corner shadow -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M64,25 L64,37 L76,37 Z" />
+
+    <!-- Text line placeholders -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M38,44 L68,44 A2,2 0 0 1 68,48 L38,48 A2,2 0 0 1 38,44 Z" />
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M38,52 L60,52 A2,2 0 0 1 60,56 L38,56 A2,2 0 0 1 38,52 Z" />
+
+    <!-- Red PDF Badge Bar -->
+    <path
+        android:fillColor="#B71C1C"
+        android:pathData="M27,62 L79,62 C80.1,62 81,62.9 81,64 L81,77 C81,78.1 80.1,79 79,79 L27,79 C25.9,79 25,78.1 25,77 L25,64 C25,62.9 25.9,62 27,62 Z" />
+
+    <!-- PDF Lettering on Badge: P -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,65 L43,65 C44.7,65 45.5,65.8 45.5,67.2 C45.5,68.6 44.7,69.4 43,69.4 L39,69.4 L39,75 L37,75 Z M39,67 L42.5,67 C43.3,67 43.8,67.3 43.8,67.8 C43.8,68.3 43.3,68.6 42.5,68.6 L39,68.6 Z" />
+
+    <!-- PDF Lettering on Badge: D -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M48,65 L52.5,65 C55.5,65 57,66.8 57,70 C57,73.2 55.5,75 52.5,75 L48,75 Z M50,67 L50,73 L52.5,73 C54.2,73 55.1,72 55.1,70 C55.1,68 54.2,67 52.5,67 Z" />
+
+    <!-- PDF Lettering on Badge: F -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M59,65 L67,65 L67,67 L61,67 L61,69.5 L66,69.5 L66,71.2 L61,71.2 L61,75 L59,75 Z" />
+
 </vector>

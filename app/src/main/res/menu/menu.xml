@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_theme"
+        android:orderInCategory="80"
+        android:icon="@drawable/ic_palette"
+        android:title="@string/theme"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_night_reading"
+        android:orderInCategory="90"
+        android:icon="@drawable/ic_night_mode"
+        android:title="@string/night_reading_mode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_open"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_folder_open"
+        android:title="@string/open"
+        app:showAsAction="ifRoom" />
+</menu>

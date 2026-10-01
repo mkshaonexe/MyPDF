@@ -7,4 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Semantic Light Theme Colors -->
+    <color name="pdf_canvas_background">#F0F2F5</color>
+    <color name="pdf_toolbar_background">#FFFFFF</color>
+    <color name="pdf_toolbar_text">#191C1E</color>
+    <color name="pdf_toolbar_subtitle">#5A5F69</color>
+    <color name="pdf_toolbar_icon">#383D45</color>
+
+    <color name="pdf_page_background">#FFFFFF</color>
+    <color name="pdf_page_border">#DDE1E8</color>
+
+    <color name="pageCounterBackgroundColor">#D91E2024</color>
+    <color name="pageCounterBorderColor">#22000000</color>
+    <color name="pageCounterTextColor">#FFFFFF</color>
+
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_container">#D1E4FF</color>
+    <color name="on_primary_container">#001D36</color>
 </resources>

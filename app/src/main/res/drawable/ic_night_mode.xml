@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+  <path
+      android:fillColor="@color/pdf_toolbar_icon"
+      android:pathData="M12,3c-4.97,0 -9,4.03 -9,9s4.02,9 9,9c3.59,0 6.69,-2.11 8.11,-5.18 -0.84,0.18 -1.72,0.28 -2.61,0.28 -4.97,0 -9,-4.03 -9,-9 0,-2.88 1.36,-5.44 3.47,-7.09C12.67,3.04 12.34,3 12,3z"/>
+</vector>
